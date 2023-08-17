@@ -190,7 +190,7 @@ k=0
 file1 = open(inputfile, 'r')
 
 while True:
-  line = file1.readline()
+  line = file1.readline(filename, 'rb')
   line = line.replace(";", " ")
   # add lat/long/identifier
 
